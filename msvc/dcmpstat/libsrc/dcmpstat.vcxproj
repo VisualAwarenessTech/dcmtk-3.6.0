@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2010_Debug|Win32">
+      <Configuration>vs2010_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2010_Debug|x64">
+      <Configuration>vs2010_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2010_Release|Win32">
+      <Configuration>vs2010_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2010_Release|x64">
+      <Configuration>vs2010_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2012_Debug|Win32">
+      <Configuration>vs2012_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2012_Debug|x64">
+      <Configuration>vs2012_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2012_Release|Win32">
+      <Configuration>vs2012_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2012_Release|x64">
+      <Configuration>vs2012_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2015_Debug|Win32">
+      <Configuration>vs2015_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2015_Debug|x64">
+      <Configuration>vs2015_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2015_Release|Win32">
+      <Configuration>vs2015_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2015_Release|x64">
+      <Configuration>vs2015_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Debug|Win32">
+      <Configuration>vs2017_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Debug|x64">
+      <Configuration>vs2017_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Release|Win32">
+      <Configuration>vs2017_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2017_Release|x64">
+      <Configuration>vs2017_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{80BBEB1C-DA96-4C92-B93E-D6B94009526F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>dcmpstat</ProjectName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">dcmpstat</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'">dcmpstat</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">dcmpstat</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2015_Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2012_Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2010_Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>../../include;../../../ofstd/include;../../../oflog/include;../../../dcmdata/include;../../../dcmimgle/include;../../../dcmimage/include;../../../dcmjpeg/libijg8;../../../dcmjpeg/libijg12;../../../dcmjpeg/libijg16;../../../dcmjpeg/include;../../../dcmjpls/include;../../../dcmnet/include;../../../dcmpstat/include;../../../dcmqrdb/include;../../../dcmsign/include;../../../dcmsr/include;../../../dcmtls/include;../../../dcmwlm/include;../../../../$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\ofstd\include;..\..\..\oflog\include;..\..\..\dcmdata\include;..\..\..\dcmimgle\include;..\..\..\dcmimage\include;..\..\..\dcmjpeg\libijg8;..\..\..\dcmjpeg\libijg12;..\..\..\dcmjpeg\libijg16;..\..\..\dcmjpeg\include;..\..\..\dcmjpls\include;..\..\..\dcmnet\include;..\..\..\dcmpstat\include;..\..\..\dcmqrdb\include;..\..\..\dcmsign\include;..\..\..\dcmsr\include;..\..\..\dcmtls\include;..\..\..\dcmwlm\include;..\..\..\..\$(ZLIB_DIR)\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dcmpstat.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dviface.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsab.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsabl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsal.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsall.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpscf.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpscu.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpscul.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsda.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsdal.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsfs.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsga.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsgal.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsgl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsgll.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsgr.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsgrl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpshlp.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsib.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsibl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsmsg.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsov.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsovl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpspl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpspl2.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpspll.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpspr.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsprt.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsri.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsril.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsrs.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsrsl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpssp.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsspl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpssv.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpssvl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpstat.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpstx.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpstxl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsvl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsvll.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsvw.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvpsvwl.cc" />
+    <ClCompile Include="..\..\..\dcmpstat\libsrc\dvsighdl.cc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

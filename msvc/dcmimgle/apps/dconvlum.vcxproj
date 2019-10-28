@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{B69127DC-209D-44B4-9A46-E04CE1AE9E0D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>dconvlum</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dconvlum.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dconvlum</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dconvlum.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dconvlum</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dconvlum.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dconvlum</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dconvlum.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dconvlum</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/Debug/dconvlum.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\libsrc\Debug\dcmimgle.lib;..\..\oflog\libsrc\Debug\oflog.lib;..\..\ofstd\libsrc\Debug\ofstd.lib;zlib_d.lib;ws2_32.lib;netapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/ofstd;D:/Development/op3d_active/dcmtk-3.6.0/msvc/ofstd/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/oflog;D:/Development/op3d_active/dcmtk-3.6.0/msvc/oflog/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/$(Configuration);;D:/Development/op3d_active/zlib-1.2.3/lib;D:/Development/op3d_active/zlib-1.2.3/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/Debug/dconvlum.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/Debug/dconvlum.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/Release/dconvlum.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\libsrc\Release\dcmimgle.lib;..\..\oflog\libsrc\Release\oflog.lib;..\..\ofstd\libsrc\Release\ofstd.lib;zlib_o.lib;ws2_32.lib;netapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/ofstd;D:/Development/op3d_active/dcmtk-3.6.0/msvc/ofstd/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/oflog;D:/Development/op3d_active/dcmtk-3.6.0/msvc/oflog/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/$(Configuration);;D:/Development/op3d_active/zlib-1.2.3/lib;D:/Development/op3d_active/zlib-1.2.3/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/Release/dconvlum.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/Release/dconvlum.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/MinSizeRel/dconvlum.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\libsrc\MinSizeRel\dcmimgle.lib;..\..\oflog\libsrc\MinSizeRel\oflog.lib;..\..\ofstd\libsrc\MinSizeRel\ofstd.lib;zlib_o.lib;ws2_32.lib;netapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/ofstd;D:/Development/op3d_active/dcmtk-3.6.0/msvc/ofstd/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/oflog;D:/Development/op3d_active/dcmtk-3.6.0/msvc/oflog/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/$(Configuration);;D:/Development/op3d_active/zlib-1.2.3/lib;D:/Development/op3d_active/zlib-1.2.3/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/MinSizeRel/dconvlum.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/MinSizeRel/dconvlum.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/RelWithDebInfo/dconvlum.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;D:/Development/op3d_active/zlib-1.2.3/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\libsrc\RelWithDebInfo\dcmimgle.lib;..\..\oflog\libsrc\RelWithDebInfo\oflog.lib;..\..\ofstd\libsrc\RelWithDebInfo\ofstd.lib;zlib_o.lib;ws2_32.lib;netapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/ofstd;D:/Development/op3d_active/dcmtk-3.6.0/msvc/ofstd/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/oflog;D:/Development/op3d_active/dcmtk-3.6.0/msvc/oflog/$(Configuration);;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata;D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/$(Configuration);;D:/Development/op3d_active/zlib-1.2.3/lib;D:/Development/op3d_active/zlib-1.2.3/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/RelWithDebInfo/dconvlum.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/RelWithDebInfo/dconvlum.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\dcmimgle\apps\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/apps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/dcmtk-3.6.0 -BD:/Development/op3d_active/dcmtk-3.6.0/msvc --check-stamp-file D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/apps/CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\dcmimgle\apps\CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\dcmimgle\apps\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/apps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/dcmtk-3.6.0 -BD:/Development/op3d_active/dcmtk-3.6.0/msvc --check-stamp-file D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/apps/CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\dcmimgle\apps\CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\dcmimgle\apps\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/apps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/dcmtk-3.6.0 -BD:/Development/op3d_active/dcmtk-3.6.0/msvc --check-stamp-file D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/apps/CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\dcmimgle\apps\CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\dcmimgle\apps\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/apps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/dcmtk-3.6.0 -BD:/Development/op3d_active/dcmtk-3.6.0/msvc --check-stamp-file D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/apps/CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\dcmimgle\apps\CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\dcmimgle\apps\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\dcmimgle\apps\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dcmimgle\apps\dconvlum.cc"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/ZERO_CHECK.vcxproj">
+      <Project>5A7C8BE9-67FE-4587-A8E3-C3C9308744F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/libsrc/dcmimgle.vcxproj">
+      <Project>BBD698E2-037D-4287-8BC1-A0A2F2F96693</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/oflog/libsrc/oflog.vcxproj">
+      <Project>E74F60C5-012A-4A46-B9D9-894F9227A533</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/ofstd/libsrc/ofstd.vcxproj">
+      <Project>1BFA3245-57B0-4E3C-B042-C20AAC4342D5</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

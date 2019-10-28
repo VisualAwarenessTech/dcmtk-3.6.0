@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{EF9E337E-1378-46FC-85B8-2AE04E46F04D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Development/op3d_active/dcmtk-3.6.0/msvc/include;D:/Development/op3d_active/dcmtk-3.6.0/ofstd/include;D:/Development/op3d_active/dcmtk-3.6.0/oflog/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmdata/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimgle/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmimage/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg8;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg12;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/libijg16;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpeg/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmjpls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmnet/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmpstat/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmqrdb/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsign/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmsr/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmtls/include;D:/Development/op3d_active/dcmtk-3.6.0/dcmwlm/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Development/op3d_active/dcmtk-3.6.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/dcmtk-3.6.0 -BD:/Development/op3d_active/dcmtk-3.6.0/msvc --check-stamp-file D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\3rdparty.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\GenerateDCMTKConfigure.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\CheckFunctionWithHeaderExists.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\osconfig.h.in;D:\Development\op3d_active\dcmtk-3.6.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Development/op3d_active/dcmtk-3.6.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/dcmtk-3.6.0 -BD:/Development/op3d_active/dcmtk-3.6.0/msvc --check-stamp-file D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\3rdparty.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\GenerateDCMTKConfigure.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\CheckFunctionWithHeaderExists.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\osconfig.h.in;D:\Development\op3d_active\dcmtk-3.6.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Development/op3d_active/dcmtk-3.6.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/dcmtk-3.6.0 -BD:/Development/op3d_active/dcmtk-3.6.0/msvc --check-stamp-file D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\3rdparty.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\GenerateDCMTKConfigure.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\CheckFunctionWithHeaderExists.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\osconfig.h.in;D:\Development\op3d_active\dcmtk-3.6.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Development/op3d_active/dcmtk-3.6.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Development/op3d_active/dcmtk-3.6.0 -BD:/Development/op3d_active/dcmtk-3.6.0/msvc --check-stamp-file D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/CMakeLists.txt;D:\Development\op3d_active\dcmtk-3.6.0\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystem.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompiler.cmake.in;D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\3rdparty.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\GenerateDCMTKConfigure.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\CheckFunctionWithHeaderExists.cmake;D:\Development\op3d_active\dcmtk-3.6.0\CMake\osconfig.h.in;D:\Development\op3d_active\dcmtk-3.6.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\97fce1760102856240a4b9605278d39e\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/97fce1760102856240a4b9605278d39e/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/97fce1760102856240a4b9605278d39e/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/97fce1760102856240a4b9605278d39e/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/97fce1760102856240a4b9605278d39e/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/ZERO_CHECK.vcxproj">
+      <Project>5A7C8BE9-67FE-4587-A8E3-C3C9308744F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpls/libcharls/charls.vcxproj">
+      <Project>CAB22148-494F-4380-B58D-3A86BED6A7A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/dcm2pdf.vcxproj">
+      <Project>A848B1BD-B539-4FFF-9D2B-BB73E75BD444</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimage/apps/dcm2pnm.vcxproj">
+      <Project>08C8CD2E-00EB-4A16-A19B-E43B607E337A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/dcm2xml.vcxproj">
+      <Project>8B82565A-AE79-46F7-993A-78BA34B16271</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpeg/apps/dcmcjpeg.vcxproj">
+      <Project>1CF7D1C7-D90A-414F-91FB-9BC2E72547F9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpls/apps/dcmcjpls.vcxproj">
+      <Project>C78F71EB-454C-45F1-95E1-8F5A71056822</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/dcmconv.vcxproj">
+      <Project>D30AE4BD-444A-4377-A4AC-B348ECB88B22</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/dcmcrle.vcxproj">
+      <Project>9B5EE6C5-ACD2-4E60-8307-E175AA748AA9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/libsrc/dcmdata.vcxproj">
+      <Project>9E348861-E300-4530-A3F0-F9B01C9F7E5C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpeg/apps/dcmdjpeg.vcxproj">
+      <Project>93912F10-A6DD-497B-860B-0DF20C80EEBD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpls/apps/dcmdjpls.vcxproj">
+      <Project>C279AF6B-E807-4135-8C9F-F48146EA7947</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/dcmdrle.vcxproj">
+      <Project>ADD06494-CE4F-46DC-A9CB-73DB2B21D4E6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmsign/libsrc/dcmdsig.vcxproj">
+      <Project>53CC5CCD-13C3-4801-813C-5B1093272A0F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/dcmdspfn.vcxproj">
+      <Project>52B88E25-DCFF-49FA-A34A-B494CC2ED078</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/dcmdump.vcxproj">
+      <Project>CC806ECC-4A6C-4781-951A-C4AA0DF544EB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/dcmftest.vcxproj">
+      <Project>8D8A6BA2-8D3C-4352-9610-F212E337225D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/dcmgpdir.vcxproj">
+      <Project>6703243E-4B9A-41B4-B8FE-4145F040C44E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimage/libsrc/dcmimage.vcxproj">
+      <Project>7135DE6C-71FE-4671-9EAF-C3CB3CFB6A6A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/libsrc/dcmimgle.vcxproj">
+      <Project>BBD698E2-037D-4287-8BC1-A0A2F2F96693</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpeg/apps/dcmj2pnm.vcxproj">
+      <Project>27ADD430-DE8B-46F4-A3D6-6B89A9F4B179</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpeg/libsrc/dcmjpeg.vcxproj">
+      <Project>4BE6870E-5E98-4AAB-A5AA-0280C5ABE687</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpls/libsrc/dcmjpls.vcxproj">
+      <Project>CA6B82A8-8778-4946-9310-2C37A70FA1AF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpls/apps/dcml2pnm.vcxproj">
+      <Project>3F06E01D-FEE7-477B-A8D2-0C1355E8269A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/apps/dcmmkcrv.vcxproj">
+      <Project>3BA6063E-0E2D-4573-B3E5-1A3DAE5F7242</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpeg/apps/dcmmkdir.vcxproj">
+      <Project>5E39A5C6-F4CE-4A5F-B10C-165B68EC71AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/apps/dcmmklut.vcxproj">
+      <Project>87D61A54-B4E9-4C79-871E-A9DDB08D2E61</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmnet/libsrc/dcmnet.vcxproj">
+      <Project>72CB6414-E5E7-4C5B-A2B9-4E0ABF726D52</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/dcmodify.vcxproj">
+      <Project>ACF02774-BB68-41E2-A0D9-A907B2FB6E78</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/apps/dcmp2pgm.vcxproj">
+      <Project>3E0849A8-D30B-4C2F-AFA8-C3A6F1E23BDB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/apps/dcmprscp.vcxproj">
+      <Project>E9202B59-E0B6-40AB-B363-F358CBBB58BA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/apps/dcmprscu.vcxproj">
+      <Project>D4266892-0540-4929-B62F-875407CB9B71</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/apps/dcmpschk.vcxproj">
+      <Project>641A4BE6-E160-469B-91D8-E9B8392213CC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/apps/dcmpsmk.vcxproj">
+      <Project>7FD154AC-F653-41DA-8233-AE7C6EB98A6B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/apps/dcmpsprt.vcxproj">
+      <Project>B2ABD07F-73AC-4645-B976-BFCE87F1291C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/apps/dcmpsrcv.vcxproj">
+      <Project>C3D88CEC-32C7-4504-ACB7-E315E874207B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/apps/dcmpssnd.vcxproj">
+      <Project>203FD0AB-BA71-4FC0-9C41-1F92BE19B603</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmpstat/libsrc/dcmpstat.vcxproj">
+      <Project>80BBEB1C-DA96-4C92-B93E-D6B94009526F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmqrdb/libsrc/dcmqrdb.vcxproj">
+      <Project>CB79018F-4A27-4A1D-8F65-EF062BA0453B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmqrdb/apps/dcmqridx.vcxproj">
+      <Project>65C9C457-01B1-4613-BA64-4D400689E113</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmqrdb/apps/dcmqrscp.vcxproj">
+      <Project>C35AB337-BAB9-424A-A2B7-FC908129940F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmqrdb/apps/dcmqrti.vcxproj">
+      <Project>99F2F211-6838-4C01-B622-845F8FC657BD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimage/apps/dcmquant.vcxproj">
+      <Project>1A07A4AA-9695-47DF-A1EC-F1D9FC49BBFA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimage/apps/dcmscale.vcxproj">
+      <Project>122D3BBD-B23A-4D93-BBDA-BDA9C34A8375</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmsign/apps/dcmsign.vcxproj">
+      <Project>6CBF532F-2A65-44EF-8C1B-3E79A1134BCC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmsr/libsrc/dcmsr.vcxproj">
+      <Project>E291BFBD-B59C-4D32-AADC-E1807CD13158</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmtls/libsrc/dcmtls.vcxproj">
+      <Project>18729FA1-063B-408E-B605-B70C734CB09A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmwlm/libsrc/dcmwlm.vcxproj">
+      <Project>13FBB370-C7EE-43F3-B59D-6E5E55901ACC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/dcod2lum.vcxproj">
+      <Project>0C28BC7A-3612-44CA-B3B6-6F535E2D106E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmimgle/apps/dconvlum.vcxproj">
+      <Project>B69127DC-209D-44B4-9A46-E04CE1AE9E0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmsr/apps/dsr2html.vcxproj">
+      <Project>7634E78A-57FC-4F71-8232-93517A9190AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmsr/apps/dsr2xml.vcxproj">
+      <Project>1632C925-BC85-470A-95A3-6327041402BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmsr/apps/dsrdump.vcxproj">
+      <Project>EC4A8F60-7591-4CA4-B373-F1AE502296E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/dump2dcm.vcxproj">
+      <Project>39C33BA1-E586-453F-8F38-31C6EB10FD01</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmnet/apps/echoscu.vcxproj">
+      <Project>2A852936-4674-424A-8523-23AB2DB383BA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmnet/apps/findscu.vcxproj">
+      <Project>568201CF-65E7-4759-ACB7-F05D6F85A965</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/tests/i2dbmp.vcxproj">
+      <Project>2A875ABB-EF7B-4C30-BDA5-91B4525362A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpeg/libijg12/ijg12.vcxproj">
+      <Project>4193BDBF-62DA-4BB3-8CEF-D847DBA3A348</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpeg/libijg16/ijg16.vcxproj">
+      <Project>0EC9E401-3D75-4E07-9543-BB73FE437194</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmjpeg/libijg8/ijg8.vcxproj">
+      <Project>859C84B5-2168-4653-85BB-07312B102B9B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/img2dcm.vcxproj">
+      <Project>FDFB3C1B-F95B-43CB-A3FE-4C81E846FFF6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/libi2d/libi2d.vcxproj">
+      <Project>23CFE8D5-51EF-4CEC-8230-7B14D4C24B1E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmsr/tests/mkreport.vcxproj">
+      <Project>B86F99C0-B90B-4CAD-A32A-4229FFD1F718</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmnet/apps/movescu.vcxproj">
+      <Project>01AAB8FF-5805-4889-AF3B-8095D71FF941</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/oflog/libsrc/oflog.vcxproj">
+      <Project>E74F60C5-012A-4A46-B9D9-894F9227A533</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/ofstd/libsrc/ofstd.vcxproj">
+      <Project>1BFA3245-57B0-4E3C-B042-C20AAC4342D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/pdf2dcm.vcxproj">
+      <Project>9FBC217D-6C1E-4C97-9B2C-814A37DF2DD6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmnet/apps/storescp.vcxproj">
+      <Project>C3C79E5F-FCA8-4B81-A155-AE039EC251A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmnet/apps/storescu.vcxproj">
+      <Project>52B38AA6-299F-4C4D-8941-47A47E194019</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmnet/apps/termscu.vcxproj">
+      <Project>9A1E6BD4-8C0E-4CBB-801C-002830B55D78</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/tests/tstchval.vcxproj">
+      <Project>F0C4075F-751A-4F5C-A0C1-AB3D44F3DCA9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/tests/tstpath.vcxproj">
+      <Project>7F6D406C-904A-4342-B3C5-83DE70841933</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/tests/tstpread.vcxproj">
+      <Project>4B2B4EFD-36E9-47DC-8583-8385F26F1E9E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/tests/tvrdatim.vcxproj">
+      <Project>553367D1-F3CF-4CA1-A918-E9039EA6CBDE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmwlm/apps/wlmscpfs.vcxproj">
+      <Project>4EA020EB-EE7D-4E2C-B49A-2152FA641057</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmdata/apps/xml2dcm.vcxproj">
+      <Project>A8652E92-585C-4BB1-95D6-A5C2A3636232</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Development/op3d_active/dcmtk-3.6.0/msvc/dcmsr/apps/xml2dsr.vcxproj">
+      <Project>9AE002AE-36AF-41E2-9D74-75D6447831F3</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

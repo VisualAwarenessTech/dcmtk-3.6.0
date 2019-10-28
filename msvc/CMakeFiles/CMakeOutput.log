@@ -1,0 +1,2897 @@
+The system is: Windows - 6.1 - x86
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1977267390
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1977267390, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:08 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1977267390.dir\Debug\cmTryCompileExec1977267390.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1977267390.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1977267390.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 testCCompiler.c
+1>  
+1>  testCCompiler.c
+1>Link:
+1>  cmTryCompileExec1977267390.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1977267390.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1977267390.dir\Debug\cmTryCompileExec1977267390.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1977267390.dir\Debug\cmTryCompileExec1977267390.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.50
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec683671421
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec683671421, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:12 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec683671421.dir\Debug\cmTryCompileExec683671421.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec683671421.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec683671421.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+1>  
+1>  CMakeCCompilerABI.c
+1>Link:
+1>  cmTryCompileExec683671421.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec683671421.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec683671421.dir\Debug\cmTryCompileExec683671421.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec683671421.dir\Debug\cmTryCompileExec683671421.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.73
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1654754339
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1654754339, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:16 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1654754339.dir\Debug\cmTryCompileExec1654754339.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1654754339.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1654754339.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 testCXXCompiler.cxx
+1>  
+1>  testCXXCompiler.cxx
+1>Link:
+1>  cmTryCompileExec1654754339.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1654754339.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1654754339.dir\Debug\cmTryCompileExec1654754339.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1654754339.dir\Debug\cmTryCompileExec1654754339.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec924647755
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec924647755, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:20 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec924647755.dir\Debug\cmTryCompileExec924647755.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec924647755.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec924647755.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>Link:
+1>  cmTryCompileExec924647755.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec924647755.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec924647755.dir\Debug\cmTryCompileExec924647755.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec924647755.dir\Debug\cmTryCompileExec924647755.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.68
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1248761352
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1248761352, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:24 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1248761352.dir\Debug\cmTryCompileExec1248761352.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1248761352.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1248761352.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.c
+1>  
+1>  CheckIncludeFile.c
+1>Link:
+1>  cmTryCompileExec1248761352.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1248761352.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1248761352.dir\Debug\cmTryCompileExec1248761352.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1248761352.dir\Debug\cmTryCompileExec1248761352.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.61
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2096025203
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2096025203, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:28 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2096025203.dir\Debug\cmTryCompileExec2096025203.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2096025203.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2096025203.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.c
+1>  
+1>  CheckIncludeFile.c
+1>Link:
+1>  cmTryCompileExec2096025203.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2096025203.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2096025203.dir\Debug\cmTryCompileExec2096025203.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2096025203.dir\Debug\cmTryCompileExec2096025203.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.65
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3681853608
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3681853608, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:31 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3681853608.dir\Debug\cmTryCompileExec3681853608.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3681853608.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3681853608.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.c
+1>  
+1>  CheckIncludeFile.c
+1>Link:
+1>  cmTryCompileExec3681853608.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3681853608.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3681853608.dir\Debug\cmTryCompileExec3681853608.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3681853608.dir\Debug\cmTryCompileExec3681853608.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.63
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of char passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4181624462
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4181624462, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:35 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4181624462.dir\Debug\cmTryCompileExec4181624462.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4181624462.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4181624462.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_CHAR.c"
+1>  
+1>  SIZEOF_CHAR.c
+1>Link:
+1>  cmTryCompileExec4181624462.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4181624462.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4181624462.dir\Debug\cmTryCompileExec4181624462.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4181624462.dir\Debug\cmTryCompileExec4181624462.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.61
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of double passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec155962706
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec155962706, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:37 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec155962706.dir\Debug\cmTryCompileExec155962706.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec155962706.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec155962706.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_DOUBLE.c"
+1>  
+1>  SIZEOF_DOUBLE.c
+1>Link:
+1>  cmTryCompileExec155962706.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec155962706.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec155962706.dir\Debug\cmTryCompileExec155962706.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec155962706.dir\Debug\cmTryCompileExec155962706.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.61
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of float passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1277128888
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1277128888, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:40 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1277128888.dir\Debug\cmTryCompileExec1277128888.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1277128888.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1277128888.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_FLOAT.c"
+1>  
+1>  SIZEOF_FLOAT.c
+1>Link:
+1>  cmTryCompileExec1277128888.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1277128888.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1277128888.dir\Debug\cmTryCompileExec1277128888.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1277128888.dir\Debug\cmTryCompileExec1277128888.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.61
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of int passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3697102686
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3697102686, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:43 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3697102686.dir\Debug\cmTryCompileExec3697102686.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3697102686.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3697102686.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+1>  
+1>  SIZEOF_INT.c
+1>Link:
+1>  cmTryCompileExec3697102686.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3697102686.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3697102686.dir\Debug\cmTryCompileExec3697102686.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3697102686.dir\Debug\cmTryCompileExec3697102686.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.62
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of long passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec709567145
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec709567145, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:46 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec709567145.dir\Debug\cmTryCompileExec709567145.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec709567145.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec709567145.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+1>  
+1>  SIZEOF_LONG.c
+1>Link:
+1>  cmTryCompileExec709567145.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec709567145.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec709567145.dir\Debug\cmTryCompileExec709567145.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec709567145.dir\Debug\cmTryCompileExec709567145.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.62
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of short passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2131462949
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2131462949, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:49 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2131462949.dir\Debug\cmTryCompileExec2131462949.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2131462949.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2131462949.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c"
+1>  
+1>  SIZEOF_SHORT.c
+1>Link:
+1>  cmTryCompileExec2131462949.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2131462949.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2131462949.dir\Debug\cmTryCompileExec2131462949.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2131462949.dir\Debug\cmTryCompileExec2131462949.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of void* passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3982771730
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3982771730, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:51 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3982771730.dir\Debug\cmTryCompileExec3982771730.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3982771730.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3982771730.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_VOID_P.c"
+1>  
+1>  SIZEOF_VOID_P.c
+1>Link:
+1>  cmTryCompileExec3982771730.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3982771730.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3982771730.dir\Debug\cmTryCompileExec3982771730.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3982771730.dir\Debug\cmTryCompileExec3982771730.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.61
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file windows.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1733962737
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1733962737, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:54 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1733962737.dir\Debug\cmTryCompileExec1733962737.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1733962737.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1733962737.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec1733962737.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1733962737.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1733962737.dir\Debug\cmTryCompileExec1733962737.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1733962737.dir\Debug\cmTryCompileExec1733962737.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.12
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file winsock.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3900679584
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3900679584, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:01:58 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3900679584.dir\Debug\cmTryCompileExec3900679584.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3900679584.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3900679584.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec3900679584.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3900679584.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3900679584.dir\Debug\cmTryCompileExec3900679584.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3900679584.dir\Debug\cmTryCompileExec3900679584.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.13
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3644567148
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3644567148, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:01 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3644567148.dir\Debug\cmTryCompileExec3644567148.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3644567148.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3644567148.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec3644567148.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3644567148.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3644567148.dir\Debug\cmTryCompileExec3644567148.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3644567148.dir\Debug\cmTryCompileExec3644567148.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.69
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4085070083
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4085070083, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:06 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4085070083.dir\Debug\cmTryCompileExec4085070083.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4085070083.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4085070083.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec4085070083.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4085070083.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4085070083.dir\Debug\cmTryCompileExec4085070083.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4085070083.dir\Debug\cmTryCompileExec4085070083.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file fstream exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec639852279
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec639852279, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:09 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec639852279.dir\Debug\cmTryCompileExec639852279.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec639852279.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec639852279.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec639852279.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec639852279.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec639852279.dir\Debug\cmTryCompileExec639852279.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec639852279.dir\Debug\cmTryCompileExec639852279.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.23
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1763942581
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1763942581, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:17 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1763942581.dir\Debug\cmTryCompileExec1763942581.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1763942581.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1763942581.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec1763942581.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1763942581.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1763942581.dir\Debug\cmTryCompileExec1763942581.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1763942581.dir\Debug\cmTryCompileExec1763942581.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec958065503
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec958065503, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:20 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec958065503.dir\Debug\cmTryCompileExec958065503.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec958065503.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec958065503.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec958065503.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec958065503.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec958065503.dir\Debug\cmTryCompileExec958065503.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec958065503.dir\Debug\cmTryCompileExec958065503.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.63
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4155088574
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4155088574, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:23 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4155088574.dir\Debug\cmTryCompileExec4155088574.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4155088574.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4155088574.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec4155088574.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4155088574.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4155088574.dir\Debug\cmTryCompileExec4155088574.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4155088574.dir\Debug\cmTryCompileExec4155088574.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file iomanip exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4291639471
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4291639471, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:30 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4291639471.dir\Debug\cmTryCompileExec4291639471.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4291639471.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4291639471.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec4291639471.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4291639471.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4291639471.dir\Debug\cmTryCompileExec4291639471.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4291639471.dir\Debug\cmTryCompileExec4291639471.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.40
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file iostream exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec617624511
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec617624511, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:36 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec617624511.dir\Debug\cmTryCompileExec617624511.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec617624511.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec617624511.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec617624511.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec617624511.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec617624511.dir\Debug\cmTryCompileExec617624511.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec617624511.dir\Debug\cmTryCompileExec617624511.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.21
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file io.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec536274057
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec536274057, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:42 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec536274057.dir\Debug\cmTryCompileExec536274057.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec536274057.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec536274057.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec536274057.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec536274057.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec536274057.dir\Debug\cmTryCompileExec536274057.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec536274057.dir\Debug\cmTryCompileExec536274057.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.66
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file iso646.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec892707289
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec892707289, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:45 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec892707289.dir\Debug\cmTryCompileExec892707289.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec892707289.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec892707289.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec892707289.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec892707289.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec892707289.dir\Debug\cmTryCompileExec892707289.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec892707289.dir\Debug\cmTryCompileExec892707289.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec854111365
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec854111365, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:50 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec854111365.dir\Debug\cmTryCompileExec854111365.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec854111365.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec854111365.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec854111365.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec854111365.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec854111365.dir\Debug\cmTryCompileExec854111365.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec854111365.dir\Debug\cmTryCompileExec854111365.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.66
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec604241591
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec604241591, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:02:52 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec604241591.dir\Debug\cmTryCompileExec604241591.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec604241591.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec604241591.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec604241591.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec604241591.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec604241591.dir\Debug\cmTryCompileExec604241591.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec604241591.dir\Debug\cmTryCompileExec604241591.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.65
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file new.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec440510941
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec440510941, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:03:00 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec440510941.dir\Debug\cmTryCompileExec440510941.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec440510941.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec440510941.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec440510941.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec440510941.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec440510941.dir\Debug\cmTryCompileExec440510941.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec440510941.dir\Debug\cmTryCompileExec440510941.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.68
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1045994481
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1045994481, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:03:05 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1045994481.dir\Debug\cmTryCompileExec1045994481.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1045994481.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1045994481.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec1045994481.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1045994481.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1045994481.dir\Debug\cmTryCompileExec1045994481.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1045994481.dir\Debug\cmTryCompileExec1045994481.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.69
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sstream exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3192530148
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3192530148, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:03:08 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3192530148.dir\Debug\cmTryCompileExec3192530148.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3192530148.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3192530148.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec3192530148.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3192530148.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3192530148.dir\Debug\cmTryCompileExec3192530148.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3192530148.dir\Debug\cmTryCompileExec3192530148.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2501609395
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2501609395, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:03:17 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2501609395.dir\Debug\cmTryCompileExec2501609395.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2501609395.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2501609395.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec2501609395.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2501609395.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2501609395.dir\Debug\cmTryCompileExec2501609395.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2501609395.dir\Debug\cmTryCompileExec2501609395.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.66
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file cstdio exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2339753957
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2339753957, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:03:20 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2339753957.dir\Debug\cmTryCompileExec2339753957.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2339753957.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2339753957.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec2339753957.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2339753957.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2339753957.dir\Debug\cmTryCompileExec2339753957.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2339753957.dir\Debug\cmTryCompileExec2339753957.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.68
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec529367688
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec529367688, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:03:25 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec529367688.dir\Debug\cmTryCompileExec529367688.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec529367688.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec529367688.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec529367688.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec529367688.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec529367688.dir\Debug\cmTryCompileExec529367688.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec529367688.dir\Debug\cmTryCompileExec529367688.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.67
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file strstream exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3880981763
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3880981763, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:03:30 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3880981763.dir\Debug\cmTryCompileExec3880981763.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3880981763.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3880981763.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec3880981763.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3880981763.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3880981763.dir\Debug\cmTryCompileExec3880981763.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3880981763.dir\Debug\cmTryCompileExec3880981763.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.32
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/utime.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4224686330
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4224686330, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:03:58 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4224686330.dir\Debug\cmTryCompileExec4224686330.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4224686330.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4224686330.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec4224686330.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4224686330.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4224686330.dir\Debug\cmTryCompileExec4224686330.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4224686330.dir\Debug\cmTryCompileExec4224686330.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.76
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec270161547
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec270161547, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:04:10 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec270161547.dir\Debug\cmTryCompileExec270161547.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec270161547.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec270161547.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec270161547.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec270161547.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec270161547.dir\Debug\cmTryCompileExec270161547.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec270161547.dir\Debug\cmTryCompileExec270161547.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2033385720
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2033385720, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:04:13 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2033385720.dir\Debug\cmTryCompileExec2033385720.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2033385720.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2033385720.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec2033385720.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2033385720.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2033385720.dir\Debug\cmTryCompileExec2033385720.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2033385720.dir\Debug\cmTryCompileExec2033385720.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.66
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file wctype.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec978113115
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec978113115, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:04:23 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec978113115.dir\Debug\cmTryCompileExec978113115.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec978113115.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec978113115.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec978113115.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec978113115.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec978113115.dir\Debug\cmTryCompileExec978113115.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec978113115.dir\Debug\cmTryCompileExec978113115.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.68
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1411002227
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1411002227, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:04:31 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1411002227.dir\Debug\cmTryCompileExec1411002227.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1411002227.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1411002227.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec1411002227.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1411002227.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1411002227.dir\Debug\cmTryCompileExec1411002227.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1411002227.dir\Debug\cmTryCompileExec1411002227.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2549725379
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2549725379, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:04:34 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2549725379.dir\Debug\cmTryCompileExec2549725379.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2549725379.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2549725379.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec2549725379.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2549725379.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2549725379.dir\Debug\cmTryCompileExec2549725379.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2549725379.dir\Debug\cmTryCompileExec2549725379.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.69
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec152794177
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec152794177, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:04:41 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec152794177.dir\Debug\cmTryCompileExec152794177.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec152794177.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec152794177.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec152794177.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec152794177.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec152794177.dir\Debug\cmTryCompileExec152794177.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec152794177.dir\Debug\cmTryCompileExec152794177.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.67
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1980332695
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1980332695, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:04:44 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1980332695.dir\Debug\cmTryCompileExec1980332695.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1980332695.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1980332695.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec1980332695.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1980332695.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1980332695.dir\Debug\cmTryCompileExec1980332695.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1980332695.dir\Debug\cmTryCompileExec1980332695.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file cstdarg exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1948833673
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1948833673, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:04:47 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1948833673.dir\Debug\cmTryCompileExec1948833673.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1948833673.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1948833673.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec1948833673.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1948833673.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1948833673.dir\Debug\cmTryCompileExec1948833673.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1948833673.dir\Debug\cmTryCompileExec1948833673.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.68
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec599082425
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec599082425, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:04:50 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec599082425.dir\Debug\cmTryCompileExec599082425.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec599082425.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec599082425.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 CheckIncludeFile.cxx
+1>  
+1>  CheckIncludeFile.cxx
+1>Link:
+1>  cmTryCompileExec599082425.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec599082425.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec599082425.dir\Debug\cmTryCompileExec599082425.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec599082425.dir\Debug\cmTryCompileExec599082425.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.71
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function access exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3794333122
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3794333122, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:05:05 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3794333122.dir\Debug\cmTryCompileExec3794333122.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=access /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3794333122.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3794333122.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec3794333122.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3794333122.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3794333122.dir\Debug\cmTryCompileExec3794333122.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3794333122.dir\Debug\cmTryCompileExec3794333122.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.62
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function vprintf exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec398899042
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec398899042, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:05:22 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec398899042.dir\Debug\cmTryCompileExec398899042.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vprintf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec398899042.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec398899042.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec398899042.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec398899042.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec398899042.dir\Debug\cmTryCompileExec398899042.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec398899042.dir\Debug\cmTryCompileExec398899042.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.63
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4174877837
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4174877837, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:05:35 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4174877837.dir\Debug\cmTryCompileExec4174877837.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getenv /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4174877837.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4174877837.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec4174877837.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4174877837.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4174877837.dir\Debug\cmTryCompileExec4174877837.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4174877837.dir\Debug\cmTryCompileExec4174877837.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.62
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3227118097
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3227118097, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:05:52 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3227118097.dir\Debug\cmTryCompileExec3227118097.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpid /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3227118097.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3227118097.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec3227118097.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3227118097.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3227118097.dir\Debug\cmTryCompileExec3227118097.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3227118097.dir\Debug\cmTryCompileExec3227118097.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.62
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function itoa exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec436162777
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec436162777, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:06:11 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec436162777.dir\Debug\cmTryCompileExec436162777.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=itoa /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec436162777.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec436162777.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec436162777.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec436162777.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec436162777.dir\Debug\cmTryCompileExec436162777.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec436162777.dir\Debug\cmTryCompileExec436162777.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.63
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2060182178
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2060182178, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:06:22 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2060182178.dir\Debug\cmTryCompileExec2060182178.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memcmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2060182178.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2060182178.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec2060182178.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2060182178.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2060182178.dir\Debug\cmTryCompileExec2060182178.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2060182178.dir\Debug\cmTryCompileExec2060182178.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2524680988
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2524680988, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:06:25 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2524680988.dir\Debug\cmTryCompileExec2524680988.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memcpy /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2524680988.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2524680988.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec2524680988.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2524680988.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2524680988.dir\Debug\cmTryCompileExec2524680988.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2524680988.dir\Debug\cmTryCompileExec2524680988.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.62
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec993275284
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec993275284, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:06:27 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec993275284.dir\Debug\cmTryCompileExec993275284.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memmove /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec993275284.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec993275284.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec993275284.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec993275284.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec993275284.dir\Debug\cmTryCompileExec993275284.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec993275284.dir\Debug\cmTryCompileExec993275284.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.63
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3337512978
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3337512978, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:06:30 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3337512978.dir\Debug\cmTryCompileExec3337512978.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memset /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3337512978.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3337512978.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec3337512978.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3337512978.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3337512978.dir\Debug\cmTryCompileExec3337512978.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3337512978.dir\Debug\cmTryCompileExec3337512978.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.63
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function mktemp exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec663554840
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec663554840, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:06:36 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec663554840.dir\Debug\cmTryCompileExec663554840.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mktemp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec663554840.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec663554840.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec663554840.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec663554840.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec663554840.dir\Debug\cmTryCompileExec663554840.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec663554840.dir\Debug\cmTryCompileExec663554840.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.62
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function stat exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4155214221
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4155214221, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:06:55 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4155214221.dir\Debug\cmTryCompileExec4155214221.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=stat /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4155214221.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4155214221.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec4155214221.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4155214221.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4155214221.dir\Debug\cmTryCompileExec4155214221.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4155214221.dir\Debug\cmTryCompileExec4155214221.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.61
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3372537592
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3372537592, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:06:57 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3372537592.dir\Debug\cmTryCompileExec3372537592.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strchr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3372537592.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3372537592.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec3372537592.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3372537592.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3372537592.dir\Debug\cmTryCompileExec3372537592.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3372537592.dir\Debug\cmTryCompileExec3372537592.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.62
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3499755191
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3499755191, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:07:00 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3499755191.dir\Debug\cmTryCompileExec3499755191.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strdup /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3499755191.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3499755191.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec3499755191.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3499755191.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3499755191.dir\Debug\cmTryCompileExec3499755191.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3499755191.dir\Debug\cmTryCompileExec3499755191.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.63
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3116065254
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3116065254, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:07:03 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3116065254.dir\Debug\cmTryCompileExec3116065254.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strerror /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3116065254.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3116065254.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec3116065254.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3116065254.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3116065254.dir\Debug\cmTryCompileExec3116065254.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3116065254.dir\Debug\cmTryCompileExec3116065254.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.66
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2292297970
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2292297970, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:07:11 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2292297970.dir\Debug\cmTryCompileExec2292297970.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strstr /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2292297970.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2292297970.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec2292297970.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2292297970.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2292297970.dir\Debug\cmTryCompileExec2292297970.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2292297970.dir\Debug\cmTryCompileExec2292297970.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.90
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1147183364
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1147183364, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:07:14 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1147183364.dir\Debug\cmTryCompileExec1147183364.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoul /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1147183364.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1147183364.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec1147183364.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1147183364.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1147183364.dir\Debug\cmTryCompileExec1147183364.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1147183364.dir\Debug\cmTryCompileExec1147183364.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.62
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function tempnam exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec47294134
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec47294134, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:07:20 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec47294134.dir\Debug\cmTryCompileExec47294134.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=tempnam /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec47294134.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec47294134.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec47294134.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec47294134.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec47294134.dir\Debug\cmTryCompileExec47294134.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec47294134.dir\Debug\cmTryCompileExec47294134.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function tmpnam exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2037468905
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2037468905, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:07:23 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2037468905.dir\Debug\cmTryCompileExec2037468905.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=tmpnam /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2037468905.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2037468905.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec2037468905.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2037468905.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2037468905.dir\Debug\cmTryCompileExec2037468905.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2037468905.dir\Debug\cmTryCompileExec2037468905.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function _findfirst exists passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2937931885
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2937931885, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:07:34 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2937931885.dir\Debug\cmTryCompileExec2937931885.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_findfirst /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2937931885.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2937931885.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"
+1>  
+1>  CheckFunctionExists.c
+1>Link:
+1>  cmTryCompileExec2937931885.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2937931885.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2937931885.dir\Debug\cmTryCompileExec2937931885.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2937931885.dir\Debug\cmTryCompileExec2937931885.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.62
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2132624458
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2132624458, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:07:49 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2132624458.dir\Debug\cmTryCompileExec2132624458.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2132624458.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2132624458.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec2132624458.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2132624458.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2132624458.dir\Debug\cmTryCompileExec2132624458.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2132624458.dir\Debug\cmTryCompileExec2132624458.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.23
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+gethostbyname;return 0;
+}
+
+Determining if the gethostname exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3400770060
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3400770060, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:07:58 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3400770060.dir\Debug\cmTryCompileExec3400770060.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3400770060.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3400770060.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec3400770060.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3400770060.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3400770060.dir\Debug\cmTryCompileExec3400770060.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3400770060.dir\Debug\cmTryCompileExec3400770060.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.17
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+gethostname;return 0;
+}
+
+Determining if the accept exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3827687000
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3827687000, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:10 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3827687000.dir\Debug\cmTryCompileExec3827687000.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3827687000.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3827687000.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec3827687000.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3827687000.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3827687000.dir\Debug\cmTryCompileExec3827687000.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3827687000.dir\Debug\cmTryCompileExec3827687000.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.19
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+accept;return 0;
+}
+
+Determining if the bind exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2005476289
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2005476289, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:13 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2005476289.dir\Debug\cmTryCompileExec2005476289.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2005476289.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2005476289.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec2005476289.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2005476289.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2005476289.dir\Debug\cmTryCompileExec2005476289.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2005476289.dir\Debug\cmTryCompileExec2005476289.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.16
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+bind;return 0;
+}
+
+Determining if the getsockname exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4056633645
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4056633645, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:16 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4056633645.dir\Debug\cmTryCompileExec4056633645.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4056633645.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4056633645.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec4056633645.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4056633645.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4056633645.dir\Debug\cmTryCompileExec4056633645.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4056633645.dir\Debug\cmTryCompileExec4056633645.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.17
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+getsockname;return 0;
+}
+
+Determining if the getsockopt exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec410311885
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec410311885, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:20 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec410311885.dir\Debug\cmTryCompileExec410311885.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec410311885.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec410311885.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec410311885.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec410311885.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec410311885.dir\Debug\cmTryCompileExec410311885.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec410311885.dir\Debug\cmTryCompileExec410311885.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.20
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+getsockopt;return 0;
+}
+
+Determining if the setsockopt exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3721526064
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3721526064, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:23 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3721526064.dir\Debug\cmTryCompileExec3721526064.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3721526064.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3721526064.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec3721526064.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3721526064.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3721526064.dir\Debug\cmTryCompileExec3721526064.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3721526064.dir\Debug\cmTryCompileExec3721526064.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.17
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+setsockopt;return 0;
+}
+
+Determining if the socket exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3690304020
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3690304020, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:26 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3690304020.dir\Debug\cmTryCompileExec3690304020.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3690304020.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3690304020.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec3690304020.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3690304020.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3690304020.dir\Debug\cmTryCompileExec3690304020.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3690304020.dir\Debug\cmTryCompileExec3690304020.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.18
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+socket;return 0;
+}
+
+Determining if the listen exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec95357374
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec95357374, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:30 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec95357374.dir\Debug\cmTryCompileExec95357374.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec95357374.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec95357374.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec95357374.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec95357374.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec95357374.dir\Debug\cmTryCompileExec95357374.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec95357374.dir\Debug\cmTryCompileExec95357374.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.18
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+listen;return 0;
+}
+
+Determining if the std::vfprintf exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4273947739
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4273947739, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:33 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4273947739.dir\Debug\cmTryCompileExec4273947739.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4273947739.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4273947739.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(7): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec4273947739.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4273947739.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4273947739.dir\Debug\cmTryCompileExec4273947739.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4273947739.dir\Debug\cmTryCompileExec4273947739.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.66
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <cstdio>
+#include <cstdarg>
+
+int main()
+{
+std::vfprintf;return 0;
+}
+
+Determining if the _stricmp exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3537796220
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3537796220, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:38 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3537796220.dir\Debug\cmTryCompileExec3537796220.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3537796220.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3537796220.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec3537796220.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3537796220.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3537796220.dir\Debug\cmTryCompileExec3537796220.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3537796220.dir\Debug\cmTryCompileExec3537796220.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.25
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+_stricmp;return 0;
+}
+
+Determining if the connect exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3758978514
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3758978514, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:47 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3758978514.dir\Debug\cmTryCompileExec3758978514.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3758978514.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3758978514.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec3758978514.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3758978514.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3758978514.dir\Debug\cmTryCompileExec3758978514.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3758978514.dir\Debug\cmTryCompileExec3758978514.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.18
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+connect;return 0;
+}
+
+Determining if the select exist passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2321438080
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2321438080, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:08:56 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2321438080.dir\Debug\cmTryCompileExec2321438080.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2321438080.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2321438080.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx"
+1>  
+1>  CheckSymbolExists.cxx
+1>D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\CheckSymbolExists.cxx(13): warning C4551: function call missing argument list
+1>Link:
+1>  cmTryCompileExec2321438080.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2321438080.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2321438080.dir\Debug\cmTryCompileExec2321438080.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2321438080.dir\Debug\cmTryCompileExec2321438080.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.17
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/CheckSymbolExists.ccc:
+/* */
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <windows.h>
+#include <winsock.h>
+
+int main()
+{
+select;return 0;
+}
+
+Determining if the C++ compiler supports type bool passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/Bool/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4057403320
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4057403320, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:09:32 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\Bool\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4057403320.dir\Debug\cmTryCompileExec4057403320.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4057403320.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/Bool/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4057403320.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\CMake\dcmtkTestBoolType.cc"
+1>  
+1>  dcmtkTestBoolType.cc
+1>Link:
+1>  cmTryCompileExec4057403320.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\Bool\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4057403320.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4057403320.dir\Debug\cmTryCompileExec4057403320.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4057403320.dir\Debug\cmTryCompileExec4057403320.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.83
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+Determining if the C++ compiler supports typename passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/Typename/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2403871111
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2403871111, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:09:38 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\Typename\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2403871111.dir\Debug\cmTryCompileExec2403871111.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2403871111.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/Typename/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2403871111.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\CMake\dcmtkTestTypename.cc"
+1>  
+1>  dcmtkTestTypename.cc
+1>Link:
+1>  cmTryCompileExec2403871111.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\Typename\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2403871111.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2403871111.dir\Debug\cmTryCompileExec2403871111.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2403871111.dir\Debug\cmTryCompileExec2403871111.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.64
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+Determining if ENAMETOOLONG is defined passed with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/NameTooLong/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2183121982
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2183121982, Configuration: Debug Win32 ------
+1>Build started 8/11/2013 5:09:41 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\NameTooLong\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2183121982.dir\Debug\cmTryCompileExec2183121982.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2183121982.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeTmp/NameTooLong/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2183121982.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "D:\Development\op3d_active\dcmtk-3.6.0\CMake\dcmtkTestNameTooLong.cc"
+1>  
+1>  dcmtkTestNameTooLong.cc
+1>Link:
+1>  cmTryCompileExec2183121982.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeTmp\NameTooLong\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2183121982.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2183121982.dir\Debug\cmTryCompileExec2183121982.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2183121982.dir\Debug\cmTryCompileExec2183121982.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.63
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: CompilerIdC, Configuration: Debug Win32 ------
+1>Build started 8/12/2013 3:37:17 PM.
+1>InitializeBuildStatus:
+1>  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CMakeCCompilerId.c
+1>Link:
+1>  CompilerIdC.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CompilerIdC\.\CompilerIdC.exe
+1>PostBuildEvent:
+1>  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "Debug\CompilerIdC.unsuccessfulbuild".
+1>  Touching "Debug\CompilerIdC.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.83
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: cl 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/Zm1000;/EHsc;/GR
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: CompilerIdCXX, Configuration: Debug Win32 ------
+1>Build started 8/12/2013 3:37:20 PM.
+1>InitializeBuildStatus:
+1>  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CMakeCXXCompilerId.cpp
+1>Link:
+1>  CompilerIdCXX.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\2.8.11.2\CompilerIdCXX\.\CompilerIdCXX.exe
+1>PostBuildEvent:
+1>  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "Debug\CompilerIdCXX.unsuccessfulbuild".
+1>  Touching "Debug\CompilerIdCXX.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.37
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1767703879
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1767703879, Configuration: Debug Win32 ------
+1>Build started 8/12/2013 3:37:22 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec1767703879.dir\Debug\cmTryCompileExec1767703879.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1767703879.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1767703879.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+1>  
+1>  CMakeCCompilerABI.c
+1>Link:
+1>  cmTryCompileExec1767703879.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1767703879.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec1767703879.dir\Debug\cmTryCompileExec1767703879.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec1767703879.dir\Debug\cmTryCompileExec1767703879.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.66
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~3.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3767082763
+
+Microsoft (R) Microsoft Visual Studio 2012 Version 11.0.60610.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3767082763, Configuration: Debug Win32 ------
+1>Build started 8/12/2013 3:37:25 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3767082763.dir\Debug\cmTryCompileExec3767082763.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 17.00.60610.1 for x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3767082763.dir\Debug\\" /Fd"D:/Development/op3d_active/dcmtk-3.6.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3767082763.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>Link:
+1>  cmTryCompileExec3767082763.vcxproj -> D:\Development\op3d_active\dcmtk-3.6.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3767082763.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3767082763.dir\Debug\cmTryCompileExec3767082763.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3767082763.dir\Debug\cmTryCompileExec3767082763.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.35
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
